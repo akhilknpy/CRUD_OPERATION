@@ -1,15 +1,17 @@
 const express = require('express');
 const app = express();
-const hospitalRoutes = require('./routes/hospitals'); // Import your router
 const PORT = 3000;
 
-// Middleware to parse JSON data in the request body
+// Import hospital routes
+const hospitalRoutes = require('./routes/hospitalRoutes');
+
+// Middleware to parse JSON bodies
 app.use(express.json());
 
-// Use the hospital router for any routes that start with /hospitals
+// Use the hospital routes
 app.use('/hospitals', hospitalRoutes);
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
