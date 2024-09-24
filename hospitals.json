@@ -10,5 +10,11 @@
     "name": "MEDICITY Hospital",
     "patientCount": 85,
     "location": "KOllam"
+  },
+  {
+    "id": 3,
+    "name": "AMRITHA Hospital",
+    "patientCount": 250,
+    "location": "Ernakulam"
   }
 ]
