@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "name": "City Hospital",
+    "name": "KIMS Hospital",
     "patientCount": 150,
-    "location": "New York"
+    "location": "TVM"
   },
   {
     "id": 2,
-    "name": "Green Valley Hospital",
+    "name": "MEDICITY Hospital",
     "patientCount": 85,
-    "location": "Los Angeles"
+    "location": "KOllam"
   }
 ]
